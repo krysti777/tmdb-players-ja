@@ -1,0 +1,17 @@
+{
+    "name": "FanFilm",
+    "plugin": "plugin.video.fanfilm",
+
+    "priority": 500,
+
+	"api_language": "en-US",
+	"language": "pl",
+
+    "play_movie":     "plugin://plugin.video.fanfilm/?action=play&title={title_url+}&localtitle={pl_title_url+}&year={year}&imdb={imdb}&tmdb={tmdb}&originalname={originaltitle_url+}",
+    "search_movie":   "plugin://plugin.video.fanfilm/?action=play&title={title_url+}&localtitle={pl_title_url+}&year={year}&imdb={imdb}&tmdb={tmdb}&originalname={originaltitle_url+}&thumb={thumbnail_url}&poster={poster_url}&plot={pl_plot_url+}&select=1",
+
+    "play_episode":   "plugin://plugin.video.fanfilm/?action=play&title={title_url+}&localtitle={pl_title_url+}&tvshowtitle={showname_url+}&localtvshowtitle={pl_showname_url+}&year={showyear}&premiered={premiered}&season={season}&episode={episode}&epimdb={epimdb}&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&originalname={originaltitle_url+}",
+    "search_episode": "plugin://plugin.video.fanfilm/?action=play&title={title_url+}&localtitle={pl_title_url+}&tvshowtitle={showname_url+}&localtvshowtitle={pl_showname_url+}&year={showyear}&premiered={premiered}&season={season}&episode={episode}&epimdb={epimdb}&imdb={imdb}&tmdb={tmdb}&tvdb={tvdb}&originalname={originaltitle_url+}&thumb={thumbnail_url}&poster={poster_url}&plot={pl_plot_url+}&select=1",
+
+    "is_resolvable": "true"
+}
